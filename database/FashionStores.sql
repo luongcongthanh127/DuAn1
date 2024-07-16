@@ -155,3 +155,15 @@ create table DoiHangChiTiet (
     foreign key(MaHoaDonChiTiet) references HoaDonChiTiet(MaHoaDonChiTiet)
 );
 go
+--tài khoản
+insert into TaiKhoan(MaTK, UserName, PassWord, VaiTro, TrangThai)
+values  ('TK001','hiennguyen', 'matkhau1', 'Admin', 1),
+		('TK002','lantong', 'matkhau2', 'User', 1),
+		('TK003','lananh', 'matkhau3', 'Admin', 0),
+		('TK004','minhhieu', 'matkhau4', 'User', 1),
+		('TK005','congthanh', 'matkhau5', 'User', 0),
+		('TK006','vanthanh', 'matkhau6', 'User', 1),
+		('TK007','vandung', 'matkhau7', 'Admin', 1),
+		('TK008','hoangyen', 'matkhau8', 'User', 0),
+		('TK009','buitruong', 'matkhau9', 'Admin', 1),
+		('TK010','kienphan', 'matkhau10', 'User', 1);
